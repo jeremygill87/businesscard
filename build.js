@@ -21,7 +21,7 @@ const data = {
 }
 
 const output = `${data.name} / ${data.handle}
-${data.labelWork}  ${data.work}
+${data.work}
 ${data.labelLinkedIn}  ${data.linkedin}
 ${data.labelGitHub}  ${data.github}
 ${data.labelWeb}  ${data.web}
