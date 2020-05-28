@@ -8,12 +8,12 @@ const path = require('path')
 const data = {
   name: chalk.white('              Jeremy Gill'),
   handle: chalk.white('jeremygill87 ') + chalk.red('⬢'),
-  work: chalk.white('Full Stack Web Developer'),
+  work: chalk.white('    Full Stack Web Developer'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.cyan('jeremy-gill-22116b96/'),
   github: chalk.gray('https://github.com/') + chalk.green('jeremygill87'),
   web: chalk.cyan('https://jeremygill87.github.io/newportfolio/'),
   npx: chalk.green('npx') + ' ' + chalk.white('@jeremygill87/businesscard'),
-  labelWork: chalk.white.bold('       Work:'),
+  labelSpace: chalk.white.bold('       '),
   labelGitHub: chalk.white.bold('     GitHub:'),
   labelLinkedIn: chalk.white.bold('   LinkedIn:'),
   labelWeb: chalk.white.bold('        Web:'),
@@ -21,7 +21,9 @@ const data = {
 }
 
 const output = `${data.name} / ${data.handle}
+${data.labelSpace} 
 ${data.work}
+${data.labelSpace}
 ${data.labelLinkedIn}  ${data.linkedin}
 ${data.labelGitHub}  ${data.github}
 ${data.labelWeb}  ${data.web}
